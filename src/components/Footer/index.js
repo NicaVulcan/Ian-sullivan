@@ -1,11 +1,14 @@
+import sfcmd from '../../assets/images/sfcmd.png';
+
 function Footer() {
     return (
         <footer>
-            <div className="footer-inside">
-                <div className="footer-text">
+            <div class="footer-inside">
+                <div class="footer-text">
+                <img alt="starfleet command logo" src={sfcmd} id="sfcmd-logo"/>
 
                     <p>
-                        Content Copyright &#169; 2023 <a href="https://www.ccs-morales.com">Developed by C.C.S. Morales</a>
+                        Copyright &#169; 2023 <a href="https://www.ccs-morales.com">C.C.S. Morales</a>
                     </p>
 
                     <p>
@@ -14,7 +17,7 @@ function Footer() {
 
                 </div>
             </div>
-            <div className="footer-panel"> <span className="hop">22</span>47 </div>
+            <div class="footer-panel"> <span class="hop">22</span>47 </div>
         </footer>
     )
 }

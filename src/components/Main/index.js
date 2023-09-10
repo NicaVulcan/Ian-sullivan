@@ -2,45 +2,49 @@ import Footer from '../Footer';
 
 function Main() {
     return (
-        <div className="wrap" id="gap">
-            <div className="left-frame">
-                <div>
-                    <div className="panel-3">03<span className="hop">-111968</span></div>
-                    <div className="panel-4">04<span className="hop">-041969</span></div>
-                    <div className="panel-5">05<span className="hop">-1701D</span></div>
-                    <div className="panel-6">06<span className="hop">-071984</span></div>
-                    <div className="panel-7">07<span className="hop">-081940</span></div>
-                    <div className="panel-8">08<span className="hop">-47148</span></div>
-                    <div className="panel-9">09<span className="hop">-081966</span></div>
-                </div>
-                <div>
-                    <div className="panel-10">10<span className="hop">-31</span></div>
-                </div>
-            </div>
-            <div className="right-frame">
-                <div className="bar-panel">
-                    <div className="bar-6"></div>
-                    <div className="bar-7"></div>
-                    <div className="bar-8"></div>
-                    <div className="bar-9"></div>
-                    <div className="bar-10"></div>
-                </div>
-                <main>
+        <div class="wrap">
+				<div class="scroll-top"><a id="scroll-top" href=""><span class="hop">screen</span> top</a></div>
+				<div class="left-frame">
+					<div>
+						<div class="panel-3">03<span class="hop">-111968</span></div>
+						<nav id="secondary-nav">
+							<a href="">BUTTON-04</a>
+							<a href="">BUTTON-05</a>
+							<a href="">BUTTON-06</a>
+						</nav>
+						<div class="panel-4">04<span class="hop">-41969</span></div>
+						<div class="panel-5">05<span class="hop">-1701D</span></div>
+						<div class="panel-6">06<span class="hop">-071984</span></div>
+						<div class="panel-7">07<span class="hop">-47148</span></div>
+					</div>
+					<div>
+						<div class="panel-8">08<span class="hop">-091966</span></div>
+					</div>
+				</div>
+				<div class="right-frame">
+					<div class="bar-runner">
+						<div class="bar-6"></div>
+						<div class="bar-7"></div>
+						<div class="bar-8"></div>
+						<div class="bar-9"></div>
+						<div class="bar-10"></div>
+					</div>
+					<main>
+						
+							<h1>Hello</h1>
 
-                    {/*Start your content here*/}
+							<h2>LCARS Ultra &#149; Picard Theme &#149; Standard Layout</h2>
 
-                    <h1>Hello</h1>
+							<h3>Welcome to the 25th Century!</h3>
 
-                    <h2>Welcome to LCARS <span className="go-tomato">Ultra</span> &#149; Classic Theme &#149;<br />
-                        Standard Layout</h2>
+							<p>Replace this content with your own.</p>
 
-                    <p>Replace this content with your own.</p>
+							<p>Live long and prosper.</p>						
 
-                    <p>Live long and prosper.</p>
-                    <Footer></Footer>
-                </main>
-            </div>
-        </div>
+						<Footer></Footer>
+					</main>
+				</div>
+			</div>
     )
 }
 
