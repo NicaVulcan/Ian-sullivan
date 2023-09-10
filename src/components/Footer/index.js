@@ -8,7 +8,7 @@ function Footer() {
                 <img alt="starfleet command logo" src={sfcmd} id="sfcmd-logo"/>
 
                     <p>
-                        Copyright &#169; 2023 <a href="https://www.ccs-morales.com">C.C.S. Morales</a>
+                        Copyright &#169; 2023 · Created by <a href="https://www.ccs-morales.com">C.C.S. Morales</a>
                     </p>
 
                     <p>

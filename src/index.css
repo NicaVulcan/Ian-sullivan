@@ -13,6 +13,8 @@ code {
     monospace;
 }
 
+/* BEGIN LCARS CSS */
+
 :root {
 	font-size: 1.5rem;
 	color-scheme: dark;
@@ -2664,3 +2666,15 @@ footer::after {
 		margin: 25px 0 25px 20px;
 	}
 }
+
+/* END LCARS CSS */
+
+/* BEGIN GENERAL CSS */
+
+/* begin Footer */
+#sfcmd-logo {
+  width: 20%;
+}
+/* end Footer */
+
+/* END GENERAL CSS */
