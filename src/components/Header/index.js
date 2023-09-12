@@ -1,5 +1,8 @@
+import formatDate from "../../utils/helpers";
+
 function Header() {
-    let currDate = new Date().toISOString().substring(2, 10);
+    let currDate = formatDate(new Date().toLocaleString());
+    
     return (
         <div class="top-wrapper">
         <div class="top-display">
