@@ -2675,6 +2675,12 @@ footer::after {
 #sfcmd-logo {
   width: 20%;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+}
 /* end Footer */
 
 /* END GENERAL CSS */

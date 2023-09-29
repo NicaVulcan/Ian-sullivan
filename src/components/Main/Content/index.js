@@ -2,7 +2,6 @@ import React from "react";
 import About from "../About";
 import Projects from "../Projects";
 import Resume from "../Resume";
-import Contact from "../Contact";
 
 function Content(props) {
     //destructure props
@@ -15,8 +14,6 @@ function Content(props) {
         return <Projects></Projects>
     } else if (currentDisplay === "Resume") {
         return <Resume></Resume>
-    } else {
-        return <Contact></Contact>
     }
 
 }

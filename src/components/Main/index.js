@@ -12,11 +12,6 @@ function Main(props) {
             <div class="left-frame">
                 <div>
                     <div class="panel-3">03<span class="hop">-111968</span></div>
-                    <nav id="secondary-nav">
-                        <a href="">BUTTON-04</a>
-                        <a href="">BUTTON-05</a>
-                        <a href="">BUTTON-06</a>
-                    </nav>
                     <div class="panel-4">04<span class="hop">-41969</span></div>
                     <div class="panel-5">05<span class="hop">-1701D</span></div>
                     <div class="panel-6">06<span class="hop">-071984</span></div>
