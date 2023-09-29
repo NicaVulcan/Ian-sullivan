@@ -1577,7 +1577,7 @@ position: relative;
 	overflow: hidden;
 }
 
-#primary-nav a {
+#primary-nav div.nav-link {
 	display: block;
 	margin-bottom: 10px;
 	background-color: #000;
@@ -1594,7 +1594,7 @@ position: relative;
 	color: var(--orange); 
 }
 
-#primary-nav a:hover {
+#primary-nav div.nav-link:hover, #primary-nav .active-link{
 	filter: none;
 	border-color: var(--pale-orange);
 	color: var(--pale-orange);
@@ -2588,7 +2588,7 @@ footer::after {
 		padding-left: 3px;
 	}
 
-	#primary-nav a {
+	#primary-nav div.nav-link {
 		padding: 7px 3px 8px 3px;
 		border-width: 2px;
 		margin-bottom: 7px;
