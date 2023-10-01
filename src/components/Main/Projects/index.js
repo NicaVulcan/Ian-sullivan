@@ -36,9 +36,9 @@ function Projects () {
         {
             title: "Wind Tunnel Fabrication",
             date: "June 2021 - June 2022",
-            description: "This Project was a long term project at UNC-Charlotte",
-            skills: [],
-            images: []
+            description: "This Project was a long term project at UNC-Charlotte, it was already started previous to me joining. The concept of the project was to create a rolling road wind tunnel witht the most laminar air possible. The test section was 2ft x 3ft and 25 feet long. My role was to fabricate and complete the project, myself and two other students were recruited for this. The project had build specifications, but no plan of action for manufacturing. It was my role to manufacure this product and it required an extensive amount of custom rigging and bracing until welding and securement was complete. The Project was 98% TIG welded and 2% Wire welded. Coumpound cuts were needed primarily on the Inlet and Diffuser sections. After nearly a year and 700L of argon the project was completed, hundreds of members were fabricated and welded. The project performed as designed!",
+            skills: ["CAD", "Mechanical Engineering", "Fluid Dynamics", "Technical Drawings", "Schematic Reading", "System Integration", "Troubleshooting", "Fabrication", "Welding", "Machining", "Project Management", "Problem Solving", "Innovation", "Collaboration", "Company Outreach"],
+            images: [""]
         },
         {
             title: "Off-Grid PV and Battery",

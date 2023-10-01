@@ -2708,6 +2708,37 @@ footer::after {
   background-color: var(--primary-gray);
   color: var(--cyan);
 }
+
+.modal-backdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.modal-container {
+	background: var(--dark-blue);
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px 50px;
+	width: 960px;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.modal-date {
+  font-size: 30px;
+  color: var(--orange);
+}
+
+.modal-skills-list {
+  list-style-position: inside;
+}
 /* end Projects */
 
 /* begin Footer */
