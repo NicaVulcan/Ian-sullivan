@@ -3,8 +3,8 @@ import sfcmd from '../../assets/images/sfcmd.png';
 function Footer() {
     return (
         <footer>
-            <div class="footer-inside">
-                <div class="footer-text">
+            <div className="footer-inside">
+                <div className="footer-text">
                 <img alt="starfleet command logo" src={sfcmd} id="sfcmd-logo"/>
 
                     <p>
@@ -17,7 +17,7 @@ function Footer() {
 
                 </div>
             </div>
-            <div class="footer-panel"> <span class="hop">22</span>47 </div>
+            <div className="footer-panel"> <span className="hop">22</span>47 </div>
         </footer>
     )
 }

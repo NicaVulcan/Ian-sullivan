@@ -7,27 +7,27 @@ function Main(props) {
     const { currentDisplay } = props;
 
     return (
-        <div class="wrap">
-            <div class="scroll-top"><a id="scroll-top" href=""><span class="hop">screen</span> top</a></div>
-            <div class="left-frame">
+        <div className="wrap">
+            <div className="scroll-top"><a id="scroll-top" href=""><span className="hop">screen</span> top</a></div>
+            <div className="left-frame">
                 <div>
-                    <div class="panel-3">03<span class="hop">-111968</span></div>
-                    <div class="panel-4">04<span class="hop">-41969</span></div>
-                    <div class="panel-5">05<span class="hop">-1701D</span></div>
-                    <div class="panel-6">06<span class="hop">-071984</span></div>
-                    <div class="panel-7">07<span class="hop">-47148</span></div>
+                    <div className="panel-3">03<span className="hop">-111968</span></div>
+                    <div className="panel-4">04<span className="hop">-41969</span></div>
+                    <div className="panel-5">05<span className="hop">-1701D</span></div>
+                    <div className="panel-6">06<span className="hop">-071984</span></div>
+                    <div className="panel-7">07<span className="hop">-47148</span></div>
                 </div>
                 <div>
-                    <div class="panel-8">08<span class="hop">-091966</span></div>
+                    <div className="panel-8">08<span className="hop">-091966</span></div>
                 </div>
             </div>
-            <div class="right-frame">
-                <div class="bar-runner">
-                    <div class="bar-6"></div>
-                    <div class="bar-7"></div>
-                    <div class="bar-8"></div>
-                    <div class="bar-9"></div>
-                    <div class="bar-10"></div>
+            <div className="right-frame">
+                <div className="bar-runner">
+                    <div className="bar-6"></div>
+                    <div className="bar-7"></div>
+                    <div className="bar-8"></div>
+                    <div className="bar-9"></div>
+                    <div className="bar-10"></div>
                 </div>
                 <main>
                     <Content

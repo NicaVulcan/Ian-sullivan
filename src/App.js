@@ -21,12 +21,12 @@ function App() {
           currentDisplay={currentDisplay}
           setCurrentDisplay={setCurrentDisplay}
         ></Header>
-        <div class="spacer">
-          <div class="space-sidebar"></div>
-          <div class="space-1"></div>
-          <div class="space-2"></div>
-          <div class="space-3"></div>
-          <div class="space-4"></div>
+        <div className="spacer">
+          <div className="space-sidebar"></div>
+          <div className="space-1"></div>
+          <div className="space-2"></div>
+          <div className="space-3"></div>
+          <div className="space-4"></div>
         </div>
         {/* pass currentDisplay as prop */}
         <Main

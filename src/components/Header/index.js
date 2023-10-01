@@ -1,4 +1,5 @@
 import formatDate from "../../utils/helpers";
+import ianAvatar from "../../assets/images/Ian_avatar.png"
 
 function Header(props) {
     let currDate = formatDate(new Date().toLocaleString());
@@ -11,9 +12,9 @@ function Header(props) {
     } = props;
 
     return (
-        <div class="top-wrapper">
-            <div class="top-display">
-                <div class="top-display-left">
+        <div className="top-wrapper">
+            <div className="top-display">
+                <div className="top-display-left">
                     <nav id="primary-nav">
                         {/* create each link */}
                         {navLinks.map((navLink) => (
@@ -31,43 +32,44 @@ function Header(props) {
                             </div>
                         ))}
                     </nav>
-                    <div class="chunk"> </div>
-                    <div class="panel-wrapper">
-                        <div class="panel-1">04-557</div>
+                    <div className="chunk"> </div>
+                    <div className="panel-wrapper">
+                        <div className="panel-1">04-557</div>
                     </div>
                 </div>
-                <div class="top-display-right">
-                    <div class="top-display-content">
-                        <div class="top-arch-1">
-                            <div class="top-arch-2">
-                                <div class="top-arch-content">
-                                    <div class="lcars-heading">IAN P. SULLIVAN</div>
-                                    <div class="lcars-access">
-                                        MECHANICAL ENGINEER <span class="blink medium-dark-blue"> - ENERGY SPECIALIZATION</span>
+                <div className="top-display-right">
+                    <div className="top-display-content">
+                        <div className="top-arch-1">
+                            <div className="top-arch-2">
+                                <div className="top-arch-content">
+                                    <div className="lcars-heading">IAN P. SULLIVAN</div>
+                                    <div className="lcars-access">
+                                        MECHANICAL ENGINEER <span className="blink medium-dark-blue"> - ENERGY SPECIALIZATION</span>
                                     </div>
+                                    <img alt="cartoon avatar" id="avatar" src={ianAvatar}></img>
                                 </div>
-                                <div class="top-arch-panel-1">
+                                <div className="top-arch-panel-1">
                                 </div>
-                                <div class="top-arch-panel-2">
+                                <div className="top-arch-panel-2">
                                     {currDate}
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="arch-bottom">
-                        <div class="arch-base"> </div>
+                    <div className="arch-bottom">
+                        <div className="arch-base"> </div>
                     </div>
                 </div>
             </div>
-            <div class="top-display-bottom">
-                <div class="bar-elbow"></div>
-                <div class="bar-1"></div>
-                <div class="bar-2"></div>
-                <div class="bar-3"></div>
-                <div class="bar-4">
+            <div className="top-display-bottom">
+                <div className="bar-elbow"></div>
+                <div className="bar-1"></div>
+                <div className="bar-2"></div>
+                <div className="bar-3"></div>
+                <div className="bar-4">
 
                 </div>
-                <div class="bar-5"></div>
+                <div className="bar-5"></div>
             </div>
         </div>
     )
