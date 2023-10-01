@@ -32,6 +32,7 @@ function App() {
         <Main
           currentDisplay={currentDisplay}
         ></Main>
+        
       </section>
     </div>
   );

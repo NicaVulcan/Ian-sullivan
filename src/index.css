@@ -2682,13 +2682,40 @@ footer::after {
 }
 /* end Header */
 
+/* begin Projects */
+#project-tile-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-tile {
+  display: flex;
+  height: 250px;
+  background-color: var(--light-gray);
+  color: var(--dark-blue);
+  padding: 10px 40px;
+  font-size: larger;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-tile:hover {
+  cursor: pointer;
+  background-color: var(--primary-gray);
+  color: var(--cyan);
+}
+/* end Projects */
+
 /* begin Footer */
 #sfcmd-logo {
   width: 20%;
 }
 
 footer {
-  position: absolute;
   bottom: 0;
   width: 90%;
 }
