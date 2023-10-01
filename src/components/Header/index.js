@@ -18,12 +18,9 @@ function Header(props) {
                     <nav id="primary-nav">
                         {/* create each link */}
                         {navLinks.map((navLink) => (
-                            <div key={navLink} className="nav-link">
+                                // set current nav link as 'active link' when clicked
+                            <div key={navLink} className="nav-link" onClick={() => {setCurrentDisplay(navLink)}}>
                                 <span
-                                    // set current nav link as 'active link' when clicked
-                                    onClick={() => {
-                                        setCurrentDisplay(navLink);
-                                    }}
                                     //active link is highlighted
                                     className={`${currentDisplay === navLink && 'active-link'} nav-link`
                                     }>
