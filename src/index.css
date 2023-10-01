@@ -2748,6 +2748,7 @@ footer::after {
 }
 
 footer {
+  z-index: 0;
   bottom: 0;
   width: 90%;
 }
