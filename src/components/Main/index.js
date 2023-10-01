@@ -8,7 +8,6 @@ function Main(props) {
 
     return (
         <div className="wrap">
-            <div className="scroll-top"><a id="scroll-top" href=""><span className="hop">screen</span> top</a></div>
             <div className="left-frame">
                 <div>
                     <div className="panel-3">03<span className="hop">-111968</span></div>
