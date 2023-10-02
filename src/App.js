@@ -7,7 +7,7 @@ function App() {
   const [navLinks] = useState([
     "About",
     "Projects",
-    "Resume"
+    // "Resume"
   ]);
   //set current display based on nav link selection
   const [currentDisplay, setCurrentDisplay] = useState(navLinks[0]);

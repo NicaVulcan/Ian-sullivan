@@ -1,6 +1,7 @@
 import React from "react";
+import Carousel from "../Carousel";
 
-function ProjectCard ({ currentProject, onClose }) {
+function ProjectCard({ currentProject, onClose }) {
 
     const { title, date, description, skills, images } = currentProject
     return (
@@ -13,6 +14,8 @@ function ProjectCard ({ currentProject, onClose }) {
                 <ul className="modal-skills-list">
                     {skills.map(skill => (<li>{skill}</li>))}
                 </ul>
+                <h3>Gallery</h3>
+                <Carousel images={images}></Carousel>
             </div>
         </div>
     )
