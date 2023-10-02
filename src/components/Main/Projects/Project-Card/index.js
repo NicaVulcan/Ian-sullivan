@@ -8,6 +8,7 @@ function ProjectCard({ currentProject, onClose }) {
         <div className="modal-backdrop" onClick={onClose}>
             <div className="modal-container">
                 <h2 className="modal-title">{title} · <span className="modal-date">{date}</span></h2>
+                <hr></hr>
                 <h3>Project Description:</h3>
                 <p>{description}</p>
                 <h3>Skills Used:</h3>
