@@ -2760,7 +2760,7 @@ footer::after {
 footer {
   z-index: 0;
   bottom: 0;
-  width: 90%;
+  width: 100%;
 }
 /* end Footer */
 
