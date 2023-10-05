@@ -1571,7 +1571,7 @@ position: relative;
 .lcars-access {
 	text-align: center;
 	text-transform: uppercase;
-	color: var(--dark-blue);
+	color: var(--medium-dark-blue);
 }
 
 #primary-nav {
