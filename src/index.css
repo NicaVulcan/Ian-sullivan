@@ -2601,10 +2601,6 @@ footer::after {
 		height: 10px;
 	}
 
-	.lcars-access {
-		display: none;
-	}
-
 	.panel-wrapper {
 		padding: 7px 0;
 	}
@@ -2841,11 +2837,27 @@ footer {
 	.modal-container {
 		width: 90vw;
 	}
+	#sfcmd-logo {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 500px) {
+.arch-base {
+	width: 15px;
+}
+
 	.modal-container {
 		width: 96vw;
+	}
+
+	.space-4, .bar-4::before, .bar-9::after {
+		display: none;
+	}
+
+	.avatar {
+		width: 80%;
+		height: auto;
 	}
 	
 }
