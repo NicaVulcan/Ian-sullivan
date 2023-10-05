@@ -18,8 +18,8 @@ function Header(props) {
                     <nav id="primary-nav">
                         {/* create each link */}
                         {navLinks.map((navLink) => (
-                                // set current nav link as 'active link' when clicked
-                            <div key={navLink} className="nav-link" onClick={() => {setCurrentDisplay(navLink)}}>
+                            // set current nav link as 'active link' when clicked
+                            <div key={navLink} className="nav-link" onClick={() => { setCurrentDisplay(navLink) }}>
                                 <span
                                     //active link is highlighted
                                     className={`${currentDisplay === navLink && 'active-link'} nav-link`
@@ -48,7 +48,13 @@ function Header(props) {
                                 <div className="top-arch-panel-1">
                                 </div>
                                 <div className="top-arch-panel-2">
-                                    {currDate}
+                                    <div id="date-display">
+                                        <span>{currDate[0]}</span>
+                                        <span className="date-display-separator">·</span>
+                                        <span>{currDate[1]}</span>
+                                        <span className="date-display-separator">·</span>
+                                        <span>{currDate[2]}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

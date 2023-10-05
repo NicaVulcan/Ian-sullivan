@@ -2674,6 +2674,10 @@ footer::after {
 
 /* BEGIN GENERAL CSS */
 
+#column-3 {
+	margin: auto;
+}
+
 /* begin Header */
 #avatar {
   height: 250px;
@@ -2697,7 +2701,7 @@ footer::after {
   background-color: var(--light-gray);
   color: var(--dark-blue);
   padding: 10px 40px;
-  font-size: larger;
+  font-size: 25px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
@@ -2763,5 +2767,42 @@ footer {
   width: 100%;
 }
 /* end Footer */
+
+/* begin media queries */
+@media screen and (max-width: 1240px) {
+	#project-tile-menu {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat (4, 1fr);
+	}	
+
+}
+@media screen and (max-width: 990px) {
+	#project-tile-menu {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat (5, 1fr);
+	}
+}
+@media screen and (max-width: 920px){
+	.top-arch-panel-2 {
+		padding-top: 20px;
+	}
+	#date-display {
+		display: flex;
+		flex-direction: column;
+	}
+	.date-display-separator {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#project-tile-menu {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(10, 1fr);
+	}
+	
+}
+
+/* end media queries */
 
 /* END GENERAL CSS */

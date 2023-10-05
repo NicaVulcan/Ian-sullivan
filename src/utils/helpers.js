@@ -12,7 +12,7 @@ const formatDate = (date) => {
     let year = date.split(',')[0].split('/')[2].substring(2, 4);
     let month = formatMonth(date.split(',')[0].split('/')[0]);
     let day = date.split(',')[0].split('/')[1];
-    return year + " · " + month + " · " + day;
+    return [year, month, day];
 }
 
 export default formatDate;
