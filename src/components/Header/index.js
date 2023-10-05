@@ -43,7 +43,7 @@ function Header(props) {
                                     <div className="lcars-access">
                                         MECHANICAL ENGINEER <span className="blink medium-dark-blue"> - ENERGY SPECIALIZATION</span>
                                     </div>
-                                    <img alt="cartoon avatar" id="avatar" src={ianAvatar}></img>
+                                    <img className="avatar" alt="cartoon avatar" id="header-avatar" src={ianAvatar}></img>
                                 </div>
                                 <div className="top-arch-panel-1">
                                 </div>
