@@ -45,14 +45,14 @@ function Projects () {
             date: "June 2021",
             description: "This project combined PV Solar, Chemical battery storage and simple logic controls. All combined this system powers a small shed and provides constant power for interior lighting and exterior for the building at night. The system is sized small, currently with a 150W PV attached to 1.2kWh of batteries. The inverter setup is good for 1.0 kW continuous power. Expansion is planned in the future, possibly creating a mobile solution to charge my father's Electric Vehicle.",
             skills: ["Data Acquisition", "Battery Engineering", "PV Engineering", "System Integration", "Product Testing", "Optimization", "Project Management"],
-            images: ["pv-off-grid-1.jpg"]
+            images: ["pv-off-grid-1.jpg", "pv-off-grid-2.jpg"]
         },
         {
             title: "Formula SAE EV UNCC",
             date: "April 2020 - May 2023",
             description: "This Project was not just a project but rather the creation of a large Collegiate racing team. Formula SAE was established at UNC-Charlotte in the 1990s, however I took the traditional team a step forward into the future of Electric Vehicles. The school presented interest in having an EV team, however no formal team had been created. I founded the team in 2020, and remaine president until May of 2023. I started with a small budget of $5000 from the school to get the team started, and over 3 years I raised over $70,000 for the team in the form of monetary and physical product donations. Donors included Companies such as TESLA Inc, Siemens, Lucid Motors, and the Kulwicki Motorsports Foundation. As Team President I oversaw all operations and acted as a CEO and CFO the 501-C Non-Profit. As team lead, I also helped in every aspect of the creation of the car, including fabrication, wiring, engineering and testing.",
             skills: ["CAD", "Siemens NX", "Battery Engineering", "Data Acquisition","Power System Design", "Electrical Engineering", "Mechanical Engineering", "Fluid Dynamics", "Thermodynamics", "Automotive Engineering", "Design Engineering", "Welding", "Electrical Wiring", "Project Management", "Project Planning", "Product Testing", "Risk Management", "Design Review", "Formal Document Submission", "Formal Presentations", "Formal Fundraising", "Finance Management", "Community Outreach", "Time Management", "Conflict Resolution"],
-            images: ["uncc-fsae-1.jpg", "uncc-fsae-2.jpg", "uncc-fsae-3.jpg", "uncc-fsae-4.jpg", "uncc-fsae-5.jpg", "uncc-fsae-6.jpg", "uncc-fsae-7.jpg", "uncc-fsae-8.jpg", "uncc-fsae-9.jpg", "uncc-fsae-10.jpg", "uncc-fsae-11.jpg", "uncc-fsae-12.jpg", "uncc-fsae-13.jpg", "uncc-fsae-14.jpg"]
+            images: ["uncc-fsae-1.jpg", "uncc-fsae-2.jpg", "uncc-fsae-3.jpg", "uncc-fsae-4.jpg", "uncc-fsae-5.jpg", "uncc-fsae-6.jpg", "uncc-fsae-7.jpg", "uncc-fsae-8.jpg", "uncc-fsae-9.jpg", "uncc-fsae-10.jpg", "uncc-fsae-11.jpg", "uncc-fsae-12.jpg", "uncc-fsae-13.jpg", "uncc-fsae-14.jpg", "uncc-fsae-15.png", "uncc-fsae-16.png", "uncc-fsae-17.png", "uncc-fsae-18.png", "uncc-fsae-19.png", "uncc-fsae-20.png", "uncc-fsae-21.png"]
         },
         {
             title: "Filtration and Fuel System Retrofit F250",
